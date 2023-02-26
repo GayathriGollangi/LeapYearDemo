@@ -1,0 +1,13 @@
+package DateTime;
+
+import java.time.LocalDate;
+
+public class leapYearDemo {
+
+	public static void main(String[] args) {
+		LocalDate date = LocalDate.now(); 
+		//checking whether the year is leap year or not
+		System.out.println(date.isLeapYear());    
+	}
+
+}
